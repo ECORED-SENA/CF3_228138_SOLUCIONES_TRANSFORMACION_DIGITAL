@@ -155,7 +155,7 @@
                   h3.text-white.mb-1 Ver plantilla descriptiva
                   p.text-white A través de la siguiente plantilla descriptiva, podrá ver un ejemplo de un caso de uso.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo5.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
