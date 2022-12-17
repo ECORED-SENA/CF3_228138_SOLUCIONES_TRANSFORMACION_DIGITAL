@@ -2,18 +2,237 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 60%
+    left: -5%
+    width: 20%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 50%
+    right: 12%
+    width: 25%
 
 @keyframes float1
   0%
-    transform: translateY(20px)
-
+    transform: translateY(30px)
   100%
     transform: translateY(0px)
+  
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img01.png") !important
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero
+  background-color: $color-acento-botones
+
+.cajon-end.cajon-b:before
+  left: 70%
+  right: 0%
+
+.linea-tiempo-b.color-acento-botones .linea-tiempo-b__icon
+  background-color: #24CB9F
+
+.tarjeta--boton.color-primario:hover
+  background-color: #0C5B7C
+
+.BGR01
+  background-color: #FFF9F4
+
+.BG02, .BGR02, .BGM02
+  background-color: #FFF3EA
+
+.BGR03, .cajon-b.color-secundario:before, .bloque-texto-b.color-secundario:before
+  background-color: #FFE5CF
+  opacity: 1
+
+.BG04, .BGR04, .BGR04A, .BGR08.acordion__activo, .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title, .linea-tiempo-d__item__content__slot, .linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #FFE7E3
+
+
+
+.BG05
+  background: linear-gradient(to right, #FFE5CF, #FFE5CF, #FFE5CF, #FFE5CF, #FFF)
+
+.BG06, .linea-tiempo-d .tarjeta
+  background-color: #E1EAF4
+
+.BGR07
+  background: linear-gradient(to bottom, #0A4D69, #020A0D)
+
+.BG08, .BGR08
+  background-color: #F6F6F6
+
+.BGR09
+  background-color: #FFF4EA
+
+.BG10, .BGR10
+  background-color: #FF6148
+
+.BGR11
+  background-color: #FFB476
+
+.BGR12
+  background-color: #FF8E7C
+
+.BG13, .BGR13, .tarjeta--boton
+  background-color: #DAE0E3
+
+.BGR14A, .bloque-texto-b.color-primario:before, .bloque-texto-c.color-primario
+  background-color: #A8B7BD
+
+.BGR15
+  background-color: #FFC8BF
+
+.BG16
+  background-color: #FFF6DB
+
+.BGR17A
+  background-color: #fff
+
+.BGR18A
+  background-color: #E8E8E8
+
+.BGR19A
+  background-color: #FFEEEB
+
+.BGR02, .BGR03, .BGIMG03, .BGR04,.BGR07,.BGR08, .BGR09, .BGR10, .BGR11, .BGR12, .BGR13A, .BGR19A
+  border-radius: 12px
+
+.BGR04, .BGR17A
+  border-radius: 22px
+
+.BGR14A, .BGR18A
+  border-radius: 0 12px 12px 0
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+  border-radius: 5px 5px 0 0
+
+.linea-tiempo-d__item__content__slot
+  border-radius: 0 0 5px 5px
+
+.BGR19A
+  border: 3px solid #FFD6CE
+
+.BGIMG01
+  background-image: url("../assets/curso/fondos/img01.png")
+
+.BGIMG02
+  background-image: url("../assets/curso/fondos/img02.png")
+
+.BGIMG03
+  background-image: url("../assets/curso/fondos/img03.png")
+
+.BGIMG01, .BGIMG02, .BGIMG03
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+.BGM02
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.slyder-a__bullets__item--active
+  background-color: #FF6148 !important
+
+.slyder-a__bullets__item
+  background-color: #AFAFAF
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #FF6148
+  @media (max-width: $bp-max-xs)
+    width: 40px
+    height: 40px
+  
+.slyder-a__bullets__item
+  @media (max-width: $bp-max-xs)
+    width: 10px
+    height: 10px
+    margin: 0 5px
+  
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-image: url("../assets/componentes/white-arrow.svg")
+
+.slyder-a__btn--sigt
+  transform: rotate(0deg) !important
+
+.slyder-a__btn--atrs
+  transform: rotate(180deg) !important
+
+.img-01
+  position: absolute
+  left: 50px
+  @media (max-width: $bp-max-md)
+   position: inherit
+   left: 0px
+  
+.img-02
+  position: relative
+  bottom: -40px
+  @media (max-width: $bp-max-md)
+    bottom: initial
+
+.img-03
+  position: absolute
+  right: 50px
+  @media (max-width: $bp-max-md)
+   position: inherit
+   right: 0px
+
+.hg-01
+  height: 245px
+  @media (max-width: $bp-max-lg)
+    height: 247px
+  @media (max-width: $bp-max-md)
+    height: 250px
+  @media (max-width: $bp-max-sm)
+    height: initial
+  
+.hg-02
+  height: 152px
+  @media (max-width: $bp-max-xl)
+    height: 176px
+  @media (max-width: $bp-max-lg)
+    height: 152px
+  @media (max-width: $bp-max-md)
+    height: 200px
+  @media (max-width: $bp-max-sm)
+    height: initial
+  
+.hg-03
+  height: 288px
+  @media (max-width: $bp-max-xl)
+    height: 312px
+  @media (max-width: $bp-max-lg)
+    height: 384px
+  @media (max-width: $bp-max-md)
+    height: initial
+  
+.hg-04
+  height: 215px
+  @media (max-width: $bp-max-lg)
+    height: 250px
+  @media (max-width: $bp-max-md)
+    height: initial
+  
+.hg-05
+  height: 323px
+  @media (max-width: $bp-max-xl)
+    height: 395px
+  @media (max-width: $bp-max-lg)
+    height: 491px
+  @media (max-width: $bp-max-md)
+    height: initial
+  
+.hg-06
+  height: 95px
+  @media (max-width: $bp-max-xl)
+    height: 82px
+  @media (max-width: $bp-max-lg)
+    height: 91px
+
+
+.tabs-c__tab--active
+  font-weight: 900
+
+.tabs-c__header
+  margin-bottom: 0
