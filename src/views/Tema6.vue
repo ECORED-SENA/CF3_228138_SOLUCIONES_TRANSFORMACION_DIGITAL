@@ -30,32 +30,50 @@
           .col-lg-7.order-lg-1.order-2
             .h4 Cuantificable en términos de medición
             p Se debe realizar una declaración cuantificable, que permita la medición y verificación del logro de los objetivos propuestos.        
-          .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema6/img02.svg")
+          .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src="@/assets/curso/tema6/img01di.png")
         .row.justify-content-center
           .col-lg-7.order-lg-1.order-2
             .h4 Completitud
             p Los requerimientos deben fijar todas las propiedades y restricciones, para asegurar que no falten referencias, definiciones o funciones específicas.        
           .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema6/img03.svg")
+            img(src="@/assets/curso/tema6/img02di.png")
         .row.justify-content-center
           .col-lg-7.order-lg-1.order-2
             .h4 Validez o corrección
             p Buscar unificar el significado de cada requerimiento. A menudo, implica el cumplimiento de políticas, leyes y normas técnicas.        
-          .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema6/img04.svg")
+          .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src="@/assets/curso/tema6/img03di.png")
         .row.justify-content-center
-          .col-lg-10.order-lg-1.order-2
+          .col-lg-7.order-lg-1.order-2
             .h4 Consistencia
             p Se deben involucrar los interesados, con el fin de superar las contradicciones a través de la negociación y priorización; se deben resolver los conflictos y llegar a acuerdos.        
-          .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
-            img.w-75(src="@/assets/curso/tema6/img05.svg")
+          .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src="@/assets/curso/tema6/img04di.png")
         .row.justify-content-center
-          .col-lg-10.order-lg-1.order-2
+          .col-lg-7.order-lg-1.order-2
             .h4 Unicidad
             p Al finalizar la definición del requisito, las palabras escritas en las declaraciones deben significar lo mismo para todo el grupo de interesados. Un glosario elimina ambigüedades semánticas y unifica definiciones.        
-          .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
-            img.w-75(src="@/assets/curso/tema6/img06.svg")
+          .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src="@/assets/curso/tema6/img05di.png")
+        .row.justify-content-center
+          .col-lg-7.order-lg-1.order-2
+            .h4 Pertinencia
+            p Es fundamental definir claramente el problema a solucionar; los requerimientos deben ser relevantes para las necesidades de los patrocinadores, sin llegar a restringir al equipo de trabajo. 
+          .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src="@/assets/curso/tema6/img06di.png")
+        .row.justify-content-center
+          .col-lg-7.order-lg-1.order-2
+            .h4 Factibilidad
+            p Los requisitos deben especificarse para que puedan implementarse utilizando los recursos disponibles, dentro del presupuesto y cronograma. 
+          .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src="@/assets/curso/tema6/img07di.png")
+        .row.justify-content-center
+          .col-lg-7.order-lg-1.order-2
+            .h4 Trazabilidad
+            p La trazabilidad de los cambios ayuda a identificar su impacto y propagación en otras partes del #[em software]. 
+          .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src="@/assets/curso/tema6/img08di.png")
 
     p.mb-5 Un proceso no consta de un objeto clase, sino que el sistema contiene varios objetos, los cuales se relacionan entre sí; estas relaciones también tienen sus características según el modelo de dominio o proceso a diagramar.
 
@@ -110,6 +128,18 @@
           .BGR19A.p-3(x="9%" y="42%" numero="+")
             .h4 Conectores
             p.mb-0 Indican el flujo y el tipo de comunicación que se tiene entre los elementos del sistema.
+          .BGR19A.p-3(x="50%" y="67%" numero="+")
+            .h4 Conectores
+            p.mb-0 Indican el flujo y el tipo de comunicación que se tiene entre los elementos del sistema.
+          .BGR19A.p-3(x="71%" y="38%" numero="+")
+            .h4 Conectores
+            p.mb-0 Indican el flujo y el tipo de comunicación que se tiene entre los elementos del sistema.
+          .BGR19A.p-3(x="83%" y="38%" numero="+")
+            .h4 Conectores
+            p.mb-0 Indican el flujo y el tipo de comunicación que se tiene entre los elementos del sistema.
+          .BGR19A.p-3(x="83%" y="70%" numero="+")
+            .h4 Conectores
+            p.mb-0 Indican el flujo y el tipo de comunicación que se tiene entre los elementos del sistema.
           .BGR19A.p-3(x="18.7%" y="63.4%" numero="+")
             .h4 Usuario (actores)
             p.mb-0 Son quienes interactúan con el sistema; por lo general, son humanos, pero también pueden ser otras máquinas.
@@ -139,7 +169,7 @@
             p.mb-0 Son quienes interactúan con el sistema; por lo general, son humanos, pero también pueden ser otras máquinas.
           .BGR19A.p-3(x="59.4%" y="2%" numero="+")
             .h4 El sistema
-            p.mb-0 Enmarca el proceso, área o software, y se representa por un cuadrado, todas las acciones dentro de este suponen procesos informáticos.
+            p.mb-0 Enmarca el proceso, área o #[em software], y se representa por un cuadrado, todas las acciones dentro de este suponen procesos informáticos.
           
     p Los diagramas de uso se complementan con plantillas de descripción que amplían la información de cada uso. A continuación, se presenta un ejemplo:
 
@@ -155,7 +185,7 @@
                   h3.text-white.mb-1 Ver plantilla descriptiva
                   p.text-white A través de la siguiente plantilla descriptiva, podrá ver un ejemplo de un caso de uso.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo5.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo5.xlsx')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 

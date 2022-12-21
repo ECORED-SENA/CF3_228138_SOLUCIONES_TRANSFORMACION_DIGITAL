@@ -91,7 +91,7 @@
           .tarjeta.tarjeta--azul.BGR04.p-4
             p.ms-5.mb-0 Para lograr la priorización de los requerimientos, se debe realizar el cálculo del cociente obtenido a partir de los puntos de valor del negocio dividido entre los puntos de historia, quedando entonces una priorización donde estarán en los primeros lugares los requerimientos más sencillos de resolver por los desarrolladores y que tengan mayor interés por parte del cliente. A continuación se da un ejemplo.     
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
           h5 Tabla 1
@@ -141,6 +141,7 @@
                 td(style="background-color: #F6F6F6;").text-center 2
                 td(style="background-color: #F6F6F6;").text-center 8
                 td(style="background-color: #F6F6F6;").text-center 0,25
+    p.mb-5 Si se trata de un proyecto de siete (7) requerimientos con los valores de negocio, puntos de historia y cocientes como se describe en la tabla anterior, al realizar el proceso de priorización quedaría en el primer lugar el requerimiento R02 ya que tiene el cociente más alto; es decir, representa un requerimiento fácil de construir para el grupo de desarrolladores y, adicionalmente, tiene un alto valor de negocio para el cliente; luego, en el segundo lugar, el requerimiento R01 y R05 y así sucesivamente se registran las prioridades de acuerdo con el valor del cociente de mayor a menor.
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
@@ -326,7 +327,7 @@
       .col-lg-7(data-aos="fade-left")
         .bloque-texto-c.color-primario.p-4
           i.fas.fa-quote-right
-          h4.mb-2 Es una técnica basada principalmente en función de la complejidad y la exactitud en los resultados, básicamente consiste en realizar el proceso de priorización utilizando como base la opinión del gerente de proyecto o dueño de producto, o de algún stakeholder con conocimientos en la industria asociada al producto a desarrollar.
+          h4.mb-2 Es una técnica basada principalmente en función de la complejidad y la exactitud en los resultados, básicamente consiste en realizar el proceso de priorización utilizando como base la opinión del gerente de proyecto o dueño de producto, o de algún #[em stakeholder] con conocimientos en la industria asociada al producto a desarrollar.
           p Porfirio, 2021.
 
     .row.justify-content-center.align-items-center.mb-5
@@ -558,6 +559,14 @@
               td
               td
     
+    .row.mb-4
+      .col-auto
+        a.anexo(:href="obtenerLink('downloads/Anexo6.xlsx')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-xml.svg")
+          .anexo__texto
+            p #[b Anexo]. Ejemplo de la estructura de una matriz de trazabilidad
+
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10(data-aos="fade-right")
         p.mb-0 Al construir una matriz de trazabilidad se deben usar los campos que se consideren útiles para el proyecto, pues no todos los proyectos son iguales y la estructura definida para uno puede no resultar conveniente para otro proyecto. <span style="color: #FF6148">#[b Cuando se usa, esta matriz debe permanecer actualizada a lo largo del ciclo de vida de construcción del proyecto.]</span>
@@ -575,7 +584,7 @@
         .bloque-texto-b.color-primario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left(style="font-size: 2em")
-            h4.mb-0 Esta estrategia consiste en definir los requerimientos como una relación de entradas y salidas de un sistema. Normalmente, estos requerimientos se definen de manera muy general y poco detallada y luego empieza a descomponerse en funcionalidades y subfuncionalidades un poco más detallados con el ánimo de analizarlas individualmente hasta lograr un nivel de detalle adecuado para el proyecto, a esta estructura se le conoce como top-down; el resultado es una estructura jerárquica
+            h4.mb-0 Esta estrategia consiste en definir los requerimientos como una relación de entradas y salidas de un sistema. Normalmente, estos requerimientos se definen de manera muy general y poco detallada y luego empieza a descomponerse en funcionalidades y subfuncionalidades un poco más detallados con el ánimo de analizarlas individualmente hasta lograr un nivel de detalle adecuado para el proyecto, a esta estructura se le conoce como top-down; el resultado es una estructura jerárquica.<br>
             p Pantaleo, 2018.
             i.fas.fa-quote-right(style="font-size: 2em")
       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")

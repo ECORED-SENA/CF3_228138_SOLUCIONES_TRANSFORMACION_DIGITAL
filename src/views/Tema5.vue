@@ -110,7 +110,7 @@
           li 
             .lista-ol--cuadro__vineta(styte="color: #000")
               span b
-            | La funcionalidad del #[em software] que se desarrolle sobre la excesiva documentación que se haga sobre este.
+            p.mb-0 La funcionalidad del #[em software] que se desarrolle sobre la excesiva documentación que se haga sobre este.
           li 
             .lista-ol--cuadro__vineta(styte="color: #000")
               span c
@@ -128,9 +128,10 @@
       .col-lg-10.BGIMG02.p-4(data-aos="zoom-in")
         .row.justify-content-center
           .col-lg-10
+            .h3.text-center Manifiesto ágil
             LineaTiempoB.color-acento-botones.mb-5(:datos="datosLineaTiempoB")
 
-    p Para complementar el tema se recomienda realizar las lecturas Gestión Ágil de proyectos y Manifiesto por el Desarrollo Ágil de Software, que se encuentran en el material complementario.
+    p Para complementar el tema se recomienda realizar las lecturas Gestión Ágil de proyectos y Manifiesto por el Desarrollo Ágil de #[em Software], que se encuentran en el material complementario.
 
     .row.justify-content-center.mb-4
       .col-lg-4.col-8(data-aos="fade-right")
@@ -398,11 +399,11 @@ export default {
         icono: require('@/assets/curso/tema5/img10.svg'),
       },
       {
-        titulo: '06 Conversar face to face.',
+        titulo: '06 Conversar <em>face to face</em>.',
         icono: require('@/assets/curso/tema5/img11.svg'),
       },
       {
-        titulo: '07 Medir progreso a través del #[em software] funcional.',
+        titulo: '07 Medir progreso a través del <em>software</em> funcional.',
         icono: require('@/assets/curso/tema5/img12.svg'),
       },
       {

@@ -317,7 +317,7 @@ export default {
     {
       termino: 'Marcos de trabajo ágiles',
       significado:
-        'conjunto de estándares, metodologías, técnicas, <em>frameworks</em> o guías que rigen un proceso de desarrollo de software, basadas en principios y/o valores ágiles, como, por ejemplo: <em>Scrum, Lean Software, XP, TDD</em>, entre otros.',
+        'conjunto de estándares, metodologías, técnicas, <em>frameworks</em> o guías que rigen un proceso de desarrollo de <em>software</em>, basadas en principios y/o valores ágiles, como, por ejemplo: <em>Scrum, Lean Software, XP, TDD</em>, entre otros.',
     },
     {
       termino: 'Metodologías ágiles',
@@ -469,7 +469,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

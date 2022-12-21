@@ -143,7 +143,7 @@
           .col-4.BG10.hg-02.p-4
             img(src="@/assets/curso/tema3/img06.svg")
           .col-8.BG02.hg-02.p-4
-            p.mb-0 Requerimientos funcionales: representan necesidades de los interesados del software.
+            p.mb-0 Requerimientos funcionales: representan necesidades de los interesados del #[em software].
       .col-xl-4.col-md-6.col-8.px-3.mb-lg-0.mb-4(data-aos="flip-up")
         .row.align-items-center
           .col-4.BG10.hg-02.p-4
@@ -161,7 +161,7 @@
           .col-4.BG10.hg-02.p-4
             img(src="@/assets/curso/tema3/img06.svg")
           .col-8.BG02.hg-02.p-4
-            p.mb-0 Interfaces del sistema: interacción entre personas con el software.
+            p.mb-0 Interfaces del sistema: interacción entre personas con el #[em software].
       .col-xl-4.col-md-6.col-8.px-3.mb-lg-0.mb-4(data-aos="flip-up")
         .row.align-items-center
           .col-4.BG10.hg-02.p-4
@@ -179,7 +179,7 @@
           .col-4.BG10.hg-02.p-4
             img(src="@/assets/curso/tema3/img06.svg")
           .col-8.BG02.hg-02.p-4
-            p.mb-0 Características físicas (hardware).
+            p.mb-0 Características físicas (#[em hardware]).
       .col-xl-4.col-md-6.col-8.px-3.mb-lg-0.mb-4(data-aos="flip-up")
         .row.align-items-center
           .col-4.BG10.hg-02.p-4
@@ -203,7 +203,7 @@
           .col-4.BG10.hg-02.p-4
             img(src="@/assets/curso/tema3/img06.svg")
           .col-8.BG02.hg-02.p-4
-            p.mb-0 Políticas y regulación: normas y estándares que fundamenta el software.
+            p.mb-0 Políticas y regulación: normas y estándares que fundamenta el #[em software].
       .col-xl-4.col-md-6.col-8.px-3.mb-4(data-aos="fade-left")
         .row.align-items-center
           .col-4.BG10.hg-02.p-4
@@ -282,11 +282,15 @@
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.4 Scrum y la especificación de requisitos
     
+    figure.mb-4(data-aos="zoom-in")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/9MaFAIVuGVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7(data-aos="fade-right")
         .bloque-texto-c.color-primario.p-4
           i.fas.fa-quote-right
-          h4.mb-2 El marco de trabajo Scrum está soportado en un proceso de construcción iterativo e incremental evolutivo, en el que se identifican tres roles principales: el equipo de trabajo (team) conformado por los desarrolladores, diseñadores, personal de calidad y de infraestructura requerido para la construcción del producto de software; el scrum master que realizan funciones parecidas a las de un director de proyecto, pero más enfocados en garantizar que el equipo de trabajo tenga todas las herramientas y recursos necesarios para el desarrollo de su trabajo; y, finalmente, el dueño del producto (product owner) que se convierte en un representante del cliente y quien es el único encargado de la gestión de requisitos del proyecto. 
+          h4.mb-2 El marco de trabajo Scrum está soportado en un proceso de construcción iterativo e incremental evolutivo, en el que se identifican tres roles principales: el equipo de trabajo (team) conformado por los desarrolladores, diseñadores, personal de calidad y de infraestructura requerido para la construcción del producto de #[em software]; el scrum master que realizan funciones parecidas a las de un director de proyecto, pero más enfocados en garantizar que el equipo de trabajo tenga todas las herramientas y recursos necesarios para el desarrollo de su trabajo; y, finalmente, el dueño del producto (product owner) que se convierte en un representante del cliente y quien es el único encargado de la gestión de requisitos del proyecto.
           p ScrumStudy, 2021.
       .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema3/img09.png")

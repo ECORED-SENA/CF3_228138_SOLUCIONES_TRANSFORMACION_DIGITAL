@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Especificación
+      h1 Elicitación de requisitos
     
     .cajon-b.color-secundario.cajon-end.p-3.mb-4
       .row.justify-content-between.align-items-center
@@ -52,7 +52,7 @@
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.1 Planeación
     
-    p La planeación busca definir las tareas a realizar para elegir y planificar las técnicas a emplear durante la actividad de elicitación de la fase de ingeniería de requisitos del desarrollo de software. En la siguiente tabla se presenta una relación de estas tareas y sus correspondientes procesos.
+    p La planeación busca definir las tareas a realizar para elegir y planificar las técnicas a emplear durante la actividad de elicitación de la fase de ingeniería de requisitos del desarrollo de #[em software]. En la siguiente tabla se presenta una relación de estas tareas y sus correspondientes procesos.
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -73,10 +73,10 @@
                 td Lista de fuentes de requerimientos.
               tr
                 td #[b B]. Identificar interesados del producto.
-                td Categorías de los interesados (stakeholder).
+                td Categorías de los interesados (#[em stakeholder]).
               tr
-                td #[b C]. Matriz stakeholders (Describir necesidades y criterios de éxito).
-                td Perfil de stakeholder.
+                td #[b C]. Matriz #[em stakeholders] (Describir necesidades y criterios de éxito).
+                td Perfil de #[em stakeholder].
               tr
                 td #[b D]. Revisar técnicas.
                 td Identificar combinaciones de técnicas entrevistas, grupos focales, encuestas, prototipos.
@@ -90,7 +90,7 @@
     .row.justify-content-center.align-items-center.BGR03.p-4.mb-4
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         .h4 A. Identificar las fuentes de requerimientos.
-        p Existe un conjunto de fuentes de requisitos en cada proyecto de desarrollo de software, así, usuarios y expertos abastecen de información detallada acerca del problema y necesidades del usuario. Los procesos y sistemas existentes representan, también, fuentes de requisitos; además, la documentación existente como manuales, formularios y reportes, incluso especificaciones de requisitos anteriores, puede proveer información útil acerca de la organización y su entorno.
+        p Existe un conjunto de fuentes de requisitos en cada proyecto de desarrollo de #[em software], así, usuarios y expertos abastecen de información detallada acerca del problema y necesidades del usuario. Los procesos y sistemas existentes representan, también, fuentes de requisitos; además, la documentación existente como manuales, formularios y reportes, incluso especificaciones de requisitos anteriores, puede proveer información útil acerca de la organización y su entorno.
         p En el proceso de esta actividad se identifican:
         ul.lista-ul--color
           li(style="margin-bottom: 2px")
@@ -105,7 +105,7 @@
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema4/img06.svg")
 
-    p Las fuentes de requerimientos incluyen los propietarios del problema, los stakeholders, documentos y otros sistemas (Pearson, 2002). En ese sentido, los requerimientos pueden obtenerse en diversas fuentes que pueden clasificarse en gente (people), productos o documentos, pero cualquiera sea la fuente de esos requerimientos deben ser chequeados con los stakeholders.
+    p Las fuentes de requerimientos incluyen los propietarios del problema, los #[em stakeholders], documentos y otros sistemas (Pearson, 2002). En ese sentido, los requerimientos pueden obtenerse en diversas fuentes que pueden clasificarse en gente (people), productos o documentos, pero cualquiera sea la fuente de esos requerimientos deben ser chequeados con los #[em stakeholders].
     p Estas fuentes de requerimientos, se pueden clasificar en:
 
     .row.justify-content-center.mb-5
@@ -142,7 +142,7 @@
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left(style="font-size: 2em")
-            h4.mb-0 Los interesados (stakeholders), son los individuos y organizaciones que están relacionados activamente en un proyecto de software; tienen influencia directa o indirecta sobre los requisitos, o sus intereses se ven afectados por el proyecto.<br>
+            h4.mb-0 Los interesados (#[em stakeholders]), son los individuos y organizaciones que están relacionados activamente en un proyecto de #[em software]; tienen influencia directa o indirecta sobre los requisitos, o sus intereses se ven afectados por el proyecto.<br>
             p Baar, 2006, Ventura, 2002.
             i.fas.fa-quote-right(style="font-size: 2em")
         p.mb-0 En resumen, son grupos o individuos que están interesados en el producto de #[em software] que se está desarrollando y necesitarán estar informados acerca del progreso, conflictos, cambios y prioridades del proceso de desarrollo del producto.
@@ -188,7 +188,7 @@
             | Ingeniero de sistemas / Arquitecto.
           li(style="margin-bottom: 2px")
             i.fas.fa-caret-square-right(style="color: #FF6148")
-            | Programador / Desarrollador / Ingeniero de software.
+            p.mb-0 Programador / Desarrollador / Ingeniero de #[em software].
           li(style="margin-bottom: 2px")
             i.fas.fa-caret-square-right(style="color: #FF6148")
             | Probador / Asegurador de la calidad.
@@ -234,25 +234,27 @@
                 th.text-center Arquitecto
                 td Es el responsable del diseño de alto nivel y es clave a la hora de precisar los atributos de calidad del producto.
 
+    p Algunas de las técnicas que se pueden emplear para llevar a cabo la labor de análisis de los #[em stakeholders] incluyen entrevistas con los expertos, lluvia de ideas en grupo y lista de chequeo. Se espera que este grupo de personas identifiquen y caractericen a los #[em stakeholders] objetivamente, por tal motivo es recomendable involucrar a personas de diferentes contextos (Karisen, 2002 citado en Wessinger, 2012).
+
     .row.justify-content-between.BGR03.p-4.mb-5
       .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
-        .h4 C. Matriz de stakeholders
-        p La utilización de esta <span style="color: #FF6148">#[b herramienta de análisis permite clasificar a los involucrados en el proyecto según sus niveles de interés y poder sobre él]</span>, lo que facilita la priorización de los stakeholders más importantes para desarrollar las estrategias de gestión correspondientes.
+        .h4 C. Matriz de #[em stakeholders]
+        p La utilización de esta <span style="color: #FF6148">#[b herramienta de análisis permite clasificar a los involucrados en el proyecto según sus niveles de interés y poder sobre él]</span>, lo que facilita la priorización de los #[em stakeholders] más importantes para desarrollar las estrategias de gestión correspondientes.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema4/img14.svg")
     
     .row.justify-content-center.mb-5(data-aos="zoom-out")
       TabsC.color-acento-contenido
-        .BGR09.py-3.py-md-4(titulo="Importancia de la matriz de stakeholders en los proyectos de desarrollo")
+        .BGR09.py-3.py-md-4(titulo="Importancia de la matriz de <em>stakeholders</em> en los proyectos de desarrollo")
           .row.justify-content-center
             .col-lg-7
-              p.mb-0 En los proyectos de desarrollo, la gestión de los stakeholders es de suma importancia para alcanzar el éxito de los proyectos, ya que el proceso de identificación de los involucrados y la definición de sus niveles de interés e influencia en el proyecto, marcarán el punto de partida para desarrollar estrategias que posibilitan obtener el apoyo requerido para alcanzar los objetivos por los que el proyecto es emprendido. Es por ello, que la matriz de stakeholders es una herramienta indispensable desde el comienzo del proyecto mismo, ya que proveerá de la información necesaria para gestionar, adecuadamente, las expectativas de los involucrados a lo largo del proyecto, maximizando las influencias positivas y mitigando los impactos negativos potenciales derivados de estos. Además, dado el carácter social de los proyectos de desarrollo, involucrar a la sociedad civil no debe ser solo un ejercicio de comunicación unidireccional sino una oportunidad para lograr su apoyo al proyecto.
+              p.mb-0 En los proyectos de desarrollo, la gestión de los #[em stakeholders] es de suma importancia para alcanzar el éxito de los proyectos, ya que el proceso de identificación de los involucrados y la definición de sus niveles de interés e influencia en el proyecto, marcarán el punto de partida para desarrollar estrategias que posibilitan obtener el apoyo requerido para alcanzar los objetivos por los que el proyecto es emprendido. Es por ello, que la matriz de #[em stakeholders] es una herramienta indispensable desde el comienzo del proyecto mismo, ya que proveerá de la información necesaria para gestionar, adecuadamente, las expectativas de los involucrados a lo largo del proyecto, maximizando las influencias positivas y mitigando los impactos negativos potenciales derivados de estos. Además, dado el carácter social de los proyectos de desarrollo, involucrar a la sociedad civil no debe ser solo un ejercicio de comunicación unidireccional sino una oportunidad para lograr su apoyo al proyecto.
             .col-lg-4.col-4.mb-lg-0.mb-4
               img(src="@/assets/curso/tema4/img15.png")
-        .BGR09.py-3.py-md-4(titulo="Proceso de armado de la matriz de stakeholders")
+        .BGR09.py-3.py-md-4(titulo="Proceso de armado de la matriz de <em>stakeholders</em>")
           .row.justify-content-center
             .col-lg-10
-              p Para desarrollar la matriz de stakeholders es necesario identificar las entradas necesarias que proveerán la información con la que el líder y el equipo de proyecto trabajarán para desarrollar la matriz misma. Tales entradas pueden ser el acta de constitución de proyecto, documentos de adquisición, activos de los procesos y factores ambientales de la organización.
+              p Para desarrollar la matriz de #[em stakeholders] es necesario identificar las entradas necesarias que proveerán la información con la que el líder y el equipo de proyecto trabajarán para desarrollar la matriz misma. Tales entradas pueden ser el acta de constitución de proyecto, documentos de adquisición, activos de los procesos y factores ambientales de la organización.
             .col-lg-8.col-10
               .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
                 h5 Figura 2
@@ -269,10 +271,10 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
-        h3.col.px-4.mb-0.text-white(data-aos="fade-right") Descripción de los componentes de la matriz de stakeholders
+        h3.col.px-4.mb-0.text-white(data-aos="fade-right") Descripción de los componentes de la matriz de #[em stakeholders]
         img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 630px; position: absolute" data-aos="fade-left")
 
-    p A continuación, se presenta el concepto de cada uno de los componentes que estructuran la matriz de stakeholders.
+    p A continuación, se presenta el concepto de cada uno de los componentes que estructuran la matriz de #[em stakeholders].
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       AcordionA(tipo="a" clase-tarjeta="BGR08")
@@ -283,37 +285,37 @@
             img(src="@/assets/curso/tema4/img17.svg")
         .row.justify-content-between(titulo="Tipo")
           .col-lg-8.order-lg-1.order-2
-            p.mb-0 Identifica si el stakeholder desempeña un rol interno o externo al proyecto mismo. Los stakeholders pueden ser internos, como el personal de las unidades ejecutoras, el personal administrativo o ejecutivo de la organización, el personal de las entidades financiadoras con alto nivel de poder e influencia en el proyecto y sus recursos; o externos como los beneficiarios del proyecto, las instituciones del sector o las organizaciones de la sociedad civil, quienes serán de un modo u otro impactados por los resultados del proyecto.
+            p.mb-0 Identifica si el #[em stakeholder] desempeña un rol interno o externo al proyecto mismo. Los #[em stakeholders] pueden ser internos, como el personal de las unidades ejecutoras, el personal administrativo o ejecutivo de la organización, el personal de las entidades financiadoras con alto nivel de poder e influencia en el proyecto y sus recursos; o externos como los beneficiarios del proyecto, las instituciones del sector o las organizaciones de la sociedad civil, quienes serán de un modo u otro impactados por los resultados del proyecto.
           .col-lg-2.col-4.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema4/img18.svg")
         .row.justify-content-between(titulo="Objetivo o resultados")
           .col-lg-8.order-lg-1.order-2
-            p.mb-0 En este campo se enlistan los objetivos o resultados en los que el stakeholder muestra interés o en aquellos en los que puede influir positiva o negativamente con sus acciones. Esta información puede ser suministrada por el acta de constitución de proyectos, la estructura de la organización, la estructura de desglose de trabajo, los diferentes planes que conforman el proyecto, entrevistas a los mismos interesados, etc.
+            p.mb-0 En este campo se enlistan los objetivos o resultados en los que el #[em stakeholder] muestra interés o en aquellos en los que puede influir positiva o negativamente con sus acciones. Esta información puede ser suministrada por el acta de constitución de proyectos, la estructura de la organización, la estructura de desglose de trabajo, los diferentes planes que conforman el proyecto, entrevistas a los mismos interesados, etc.
           .col-lg-2.col-4.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema4/img19.svg")
         .row.justify-content-between(titulo="Acciones posibles con impacto positivo / negativo")
           .col-lg-8.order-lg-1.order-2
-            p.mb-0 Son las acciones que puede emprender el stakeholder y que pueden influir, negativa o positivamente, en los objetivos del proyecto en los que muestra su interés o en aquellos en los que puede influir debido a su jerarquía, estatus, recursos de los que dispone, entre otros.
+            p.mb-0 Son las acciones que puede emprender el #[em stakeholder] y que pueden influir, negativa o positivamente, en los objetivos del proyecto en los que muestra su interés o en aquellos en los que puede influir debido a su jerarquía, estatus, recursos de los que dispone, entre otros.
           .col-lg-2.col-4.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema4/img20.svg")
         .row.justify-content-between(titulo="Estrategias")
           .col-lg-8.order-lg-1.order-2
-            p.mb-0 Es un listado de acciones que se pueden emprender para obtener el apoyo necesario o evitar obstáculos por parte de los stakeholders durante la ejecución y conclusión del proyecto. Las estrategias se desarrollan considerando el tipo de stakeholder, los objetivos en los que está interesado, el nivel de interés y poder que puede ejercer en el proyecto (figura 1) y las acciones posibles que podría emprender para afectar tanto positiva como negativamente al proyecto.
+            p.mb-0 Es un listado de acciones que se pueden emprender para obtener el apoyo necesario o evitar obstáculos por parte de los #[em stakeholders] durante la ejecución y conclusión del proyecto. Las estrategias se desarrollan considerando el tipo de #[em stakeholder], los objetivos en los que está interesado, el nivel de interés y poder que puede ejercer en el proyecto (figura 1) y las acciones posibles que podría emprender para afectar tanto positiva como negativamente al proyecto.
           .col-lg-2.col-4.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema4/img21.svg")
         .row.justify-content-between(titulo="Conclusiones")
           .col-lg-8.order-lg-1.order-2
-            p.mb-0 Es la síntesis sobre puntos clave a considerar para gestionar de manera efectiva las expectativas de los stakeholders. Las conclusiones se obtienen de relacionar, analizar y sintetizar toda la información vertida en la matriz de stakeholders.
+            p.mb-0 Es la síntesis sobre puntos clave a considerar para gestionar de manera efectiva las expectativas de los #[em stakeholders]. Las conclusiones se obtienen de relacionar, analizar y sintetizar toda la información vertida en la matriz de #[em stakeholders].
           .col-lg-2.col-4.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema4/img22.svg")
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
-        h3.col.px-4.mb-0.text-white(data-aos="fade-right") Categorización de stakeholders y estrategias de gestión de las expectativas
+        h3.col.px-4.mb-0.text-white(data-aos="fade-right") Categorización de #[em stakeholders] y estrategias de gestión de las expectativas
         img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 760px; position: absolute" data-aos="fade-left")
 
     p Como ya se había mencionado anteriormente, la matriz de stakholders es una herramienta muy útil que permite clasificar a los involucrados en el proyecto según sus niveles de interés e influencia, priorizando a los más importantes y desarrollando así las estrategias correspondientes para gestionar sus expectativas. De la misma manera, su clasificación puede cambiar durante la vida del proyecto. Así, aquellos que fueron inicialmente identificados con un alto nivel de influencia en el proyecto, pueden ser reclasificados a un nivel más bajo durante otras etapas de la vida del proyecto.
-    p La categorización de los stakeholders se lleva a cabo una vez que la información sobre éstos esté completa. Para ello se puede utilizar una matriz de 2x2 en la que se pueda graficar el grado de poder e interés que tiene el involucrado en el proyecto, coadyuvando así a clasificar a cada stakeholder dentro del grupo para el cual se definen diferentes estrategias (figura 2).
+    p La categorización de los #[em stakeholders] se lleva a cabo una vez que la información sobre éstos esté completa. Para ello se puede utilizar una matriz de 2x2 en la que se pueda graficar el grado de poder e interés que tiene el involucrado en el proyecto, coadyuvando así a clasificar a cada #[em stakeholder] dentro del grupo para el cual se definen diferentes estrategias (figura 2).
 
     .row.justify-content-center.mb-4
       .col-lg-10.mb-4(data-aos="fade-right")
@@ -407,10 +409,10 @@
                   li(style="margin-bottom: 2px")
                     i.fas.fa-caret-square-right(style="color: #FF6148")
                     p.mb-0 #[b Preguntas abiertas]: también denominadas de libre contexto (Gause y Weinberg, 1989), estas preguntas no pueden responderse con un "sí" o un "no", permiten una mayor comunicación y evitan la sensación de interrogatorio. Por ejemplo, "¿Qué se hace para registrar un pedido?", "Dígame qué se debe hacer cuando un cliente pide una factura" o “¿Cómo se rellena un recibo?".
-                li(style="margin-bottom: 2px")
+                  li(style="margin-bottom: 2px")
                     i.fas.fa-caret-square-right(style="color: #FF6148")
                     p.mb-0 #[b Utilizar palabras apropiadas]: se deben evitar tecnicismos que no conozca el entrevistado y palabras o frases que puedan perturbar emocionalmente la comunicación (Goleman 1996, Goleman 1999).
-                li(style="margin-bottom: 2px")
+                  li(style="margin-bottom: 2px")
                     i.fas.fa-caret-square-right(style="color: #FF6148")
                     p.mb-0 #[b Mostrar interés en todo momento]: es fundamental cuidar la comunicación no verbal (Davis, 1985) durante la entrevista: tono de voz, movimiento, expresión facial.
               ol.lista-ol--cuadro
@@ -493,6 +495,7 @@
             h4.mb-0 Los cuestionarios son herramientas ampliamente utilizadas para recoger datos de sondeos y pueden ser administradas sin la presencia del investigador. 
             p Cohen, 2011, p. 377.
             i.fas.fa-quote-right(style="font-size: 2em")
+        p.mb-0 Pueden variar en cuanto a propósito, diseño y apariencia, y consisten en listas de preguntas escritas. Los individuos participantes en la investigación suelen leer los mismos listados de preguntas, por lo que esto permite consistencia y precisión al analizar las respuestas, además de facilitar el proceso. Una de las ventajas más destacadas de los cuestionarios es que simplifican el proceso de la obtención de datos, preguntando directamente a los individuos participantes para obtener datos de forma rápida y directa y se pueden aplicar a un gran número de sujetos.
 
     p Los datos que se obtienen a través de los cuestionarios suelen estar clasificados en dos categorías: hechos y opiniones (Denscombe, 2010, p. 156). La información relacionada con los hechos no requiere el juicio o la actitud personal de los sujetos participantes, pero la información obtenida a través de las opiniones implica creencias, puntos de vista y preferencias de los sujetos participantes.
 
@@ -560,6 +563,9 @@
       .col-lg-1.col-2.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema4/img37.png")
 
+    p Para el caso de obtención de requerimientos del #[em software] la observación nos sirve para estudiar el entorno de trabajo de los usuarios, clientes e interesados de proyecto (#[em stakeholders]) y para documentar la situación actual de procesos de negocio.
+    p En la siguiente figura, se pueden revisar los tipos de observación.
+
     .row.justify-content-center.mb-4
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
@@ -592,7 +598,7 @@
 
     .row.justify-content-start.mb-4(data-aos="fade-right")
       .col-lg-5
-        a.anexo.mb-4(:href="obtenerLink('downloads/Anexo1.pdf')" target="_blank" style="background-color: #DAE0E3;")
+        a.anexo.mb-4(:href="obtenerLink('downloads/Anexo2.pdf')" target="_blank" style="background-color: #DAE0E3;")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -649,7 +655,7 @@
     .cajon-b.color-secundario.cajon-end.p-3.mb-4
       .row.justify-content-between.align-items-center
         .col-lg-10.order-lg-1.order-2(data-aos="fade-right")
-          p.mb-0 Existen varias herramientas para la captura de requisitos potenciales de un nuevo sistema o una actualización de software, a continuación, se explican las más utilizadas:
+          p.mb-0 Existen varias herramientas para la captura de requisitos potenciales de un nuevo sistema o una actualización de #[em software], a continuación, se explican las más utilizadas:
         .col-lg-1.col-2.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img(src="@/assets/curso/tema4/img44.svg")
 
@@ -674,7 +680,7 @@
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Caso de uso 
         img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 195px; position: absolute" data-aos="fade-left")
 
-    p se representa mediante un óvalo e indica una función que el sistema debe proveer.
+    p Se representa mediante un óvalo e indica una función que el sistema debe proveer.
 
     .row.justify-content-center.mb-4
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
@@ -757,7 +763,7 @@
                 i.fas.fa-caret-square-right(style="color: #FF6148")
                 | Para &lt;funcionalidades&gt;
 
-    p Así, el &lt;rol&gt; que se escoja que va a utilizar la aplicación software, requiere de una &lt;Acción&gt; / &lt;evento&gt; que ocurra, porque se desea cubrir una &lt;funcionalidad&gt;. Corto y conciso, directo y claro.
+    p Así, el &lt;rol&gt; que se escoja que va a utilizar la aplicación #[em software], requiere de una &lt;Acción&gt; / &lt;evento&gt; que ocurra, porque se desea cubrir una &lt;funcionalidad&gt;. Corto y conciso, directo y claro.
     p En las siguientes figuras se presentan ejemplos de historias de usuario.
 
     .row.justify-content-center.mb-4
@@ -901,7 +907,7 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
-        h3.col.px-4.mb-0.text-white(data-aos="fade-right") Storyboard
+        h3.col.px-4.mb-0.text-white(data-aos="fade-right") #[em Storyboard]
         img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 180px; position: absolute" data-aos="fade-left")
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
@@ -915,8 +921,8 @@
     .row.justify-content-between.align-items-center.mb-4
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         p Con esta técnica se pretende crear diferentes vistas del sistema en las primeras etapas de su implementación de la manera más rápida y barata posible [SUT02].
-        p Una forma muy común de ejemplificar los storyboards es con las revistas de cómics, ya que van mostrando una secuencia de imágenes en cuadros con un orden establecido que permiten entender la línea de la historia contada. La técnica storyboard permite generar modelos o esquemas visuales como esbozos de interfaces gráficas de usuario (GUI).
-        p.mb-0 A continuación, se detallan las principales características de los storyboards:
+        p Una forma muy común de ejemplificar los #[em storyboards] es con las revistas de cómics, ya que van mostrando una secuencia de imágenes en cuadros con un orden establecido que permiten entender la línea de la historia contada. La técnica #[em storyboard] permite generar modelos o esquemas visuales como esbozos de interfaces gráficas de usuario (GUI).
+        p.mb-0 A continuación, se detallan las principales características de los #[em storyboards]:
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema4/img53.png")
 
@@ -946,20 +952,20 @@
         i.fas.fa-caret-square-right(style="color: #FF6148")
         | Permiten incorporar modificaciones durante la validación.
     
-    p Las dos figuras siguientes muestran el ejemplo de un storyboard que representa un escenario de situación de vendedores de una empresa para explicar el cambio que sufrirá el trabajo, el primero representa la situación actual y el segundo como quedará con la implantación del sistema.
+    p Las dos figuras siguientes muestran el ejemplo de un #[em storyboard] que representa un escenario de situación de vendedores de una empresa para explicar el cambio que sufrirá el trabajo, el primero representa la situación actual y el segundo como quedará con la implantación del sistema.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.col-10.mb-lg-0.mb-4
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
           h5 Figura 11
-          span Escenario representado en formato de storyboard que representa una situación típica tal y como se realiza actualmente
+          span Escenario representado en formato de #[em storyboard] que representa una situación típica tal y como se realiza actualmente
         figure(data-aos="flip-right")
           img(src="@/assets/curso/tema4/img54.jpg")
           figcaption Nota: Tomado de Granollers, Lorés y Perdrix (2002)
       .col-lg-5.col-10.mb-lg-0.mb-4
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-left")
           h5 Figura 12
-          span Escenario representado en formato de storyboard que representa la misma situación anterior tal como quedará con la implementación del sistema
+          span Escenario representado en formato de #[em storyboard] que representa la misma situación anterior tal como quedará con la implementación del sistema
         figure(data-aos="flip-left")
           img(src="@/assets/curso/tema4/img55.jpg")
           figcaption Nota: Tomado de Granollers, Lorés y Perdrix (2002)
@@ -974,9 +980,9 @@
       .col-lg-7(data-aos="fade-left")
         .h5 Estas herramientas permiten crear un "simulacro" del sistema.
         p Las herramientas de modelado de sistemas informáticos se emplean para la creación de modelos de sistemas que ya existen o que se desarrollarán; estas herramientas permiten crear un "simulacro" del sistema, a bajo coste y riesgo mínimo. A bajo costo porque, es un conjunto de gráficos y textos que representan el sistema.
-        p El Lenguaje Unificado de Modelado (UML, por sus siglas en inglés, Unified Modeling Language) es el lenguaje de modelado de sistemas de #[em software] más conocido y utilizado en la actualidad; UML es un lenguaje gráfico que permite especificar, modelar, construir y documentar los elementos que forman un sistema software.
+        p El Lenguaje Unificado de Modelado (UML, por sus siglas en inglés, Unified Modeling Language) es el lenguaje de modelado de sistemas de #[em software] más conocido y utilizado en la actualidad; UML es un lenguaje gráfico que permite especificar, modelar, construir y documentar los elementos que forman un sistema #[em software].
 
-    p De otra parte, las herramientas CASE son un conjunto de programas y procesos “guiados”, que ayudan a los analistas, desarrolladores, ingenieros de #[em software] y diseñadores en una o todas las etapas que comprende un ciclo de vida, con el objetivo de facilitar el desarrollo de software. El objetivo general de estas herramientas es acelerar el proceso para el que han sido diseñadas, es decir, para automatizar o apoyar una o más fases del ciclo de vida del desarrollo de sistemas. CASE proporciona un conjunto de herramientas semiautomatizadas y automatizadas que están creando una nueva cultura de ingeniería en muchas empresas. Las herramientas CASE se diseñaron para aumentar la productividad en el desarrollo de #[em software] y reducir su costo.
+    p De otra parte, las herramientas CASE son un conjunto de programas y procesos “guiados”, que ayudan a los analistas, desarrolladores, ingenieros de #[em software] y diseñadores en una o todas las etapas que comprende un ciclo de vida, con el objetivo de facilitar el desarrollo de #[em software]. El objetivo general de estas herramientas es acelerar el proceso para el que han sido diseñadas, es decir, para automatizar o apoyar una o más fases del ciclo de vida del desarrollo de sistemas. CASE proporciona un conjunto de herramientas semiautomatizadas y automatizadas que están creando una nueva cultura de ingeniería en muchas empresas. Las herramientas CASE se diseñaron para aumentar la productividad en el desarrollo de #[em software] y reducir su costo.
     p Existen muchas herramientas para modelado tanto en libres como con derechos comerciales; a renglón seguido se listan las herramientas CASE más utilizadas:
 
     .row.mb-4
@@ -1101,9 +1107,9 @@
                 img(src="@/assets/curso/tema4/img60.jpg")
           .col-lg-10.BG08.p-2
             p.mb-0 #[b Figura 16]. Herramienta de modelado StarUML.
-        .row.justify-content-center.py-3.py-md-4(titulo="IdentificacióX")
+        .row.justify-content-center.py-3.py-md-4(titulo="Lucidchart")
           .col-12.mb-4
-            p Herramienta para hacer diagramas UML online que permite comprender las complejidades en el código de forma más rápida y sencilla, pues automatiza el proceso de generación de un diagrama de clases. Simplemente elabora y personaliza los diagramas de secuencia en línea a partir del texto. Al ingresar el marcado en el diálogo emergente, Lucidchart generará automáticamente un diagrama de secuencia que cumple el estándar de PlantUML.
+            p Herramienta para hacer diagramas UML #[em online] que permite comprender las complejidades en el código de forma más rápida y sencilla, pues automatiza el proceso de generación de un diagrama de clases. Simplemente elabora y personaliza los diagramas de secuencia en línea a partir del texto. Al ingresar el marcado en el diálogo emergente, Lucidchart generará automáticamente un diagrama de secuencia que cumple el estándar de PlantUML.
           .col-lg-10.BG16.p-4
             .row.justify-content-center
               .col-lg-10

@@ -16,8 +16,9 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
-        h3.col.px-4.mb-0.text-white(data-aos="fade-right") Tipos
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 127px; position: absolute" data-aos="fade-left")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
+        h3.col.px-4.mb-0.ms-4.text-white(data-aos="fade-right") Tipos
+        
 
     p Los tipos de comunicación corresponden a las diferentes formas que se tiene al transmitir un mensaje. Y tienen que ver con los diferentes modos de llevar a cabo la relación mediada por un mensaje, los diferentes ámbitos o situaciones, entre otro tipo de parámetros, etc. A nivel general pueden clasificarse los siguientes tipos de comunicación:
 
@@ -43,6 +44,8 @@
         h4.col.mb-0.text-white(data-aos="fade-right") Técnicas de comunicación oral
       
     .row.justify-content-center.mb-5(data-aos="zoom-in")
+      p Consisten en la preparación teórica y práctica para el desenvolvimiento oral sobre un tema en específico, por ejemplo, la exposición de una idea o proyecto. 
+      p Las técnicas que se pueden utilizar para la comunicación oral son:
       .col-lg-12.d-none.d-lg-flex
         img(src="@/assets/curso/tema1/img03.svg")
       .col-12.d-lg-none.d-flex

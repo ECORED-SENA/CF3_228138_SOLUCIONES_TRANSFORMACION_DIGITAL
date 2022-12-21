@@ -135,7 +135,7 @@
           .col-lg-2.col-4.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema7/img20.svg")
 
-    p La experiencia del equipo de trabajo y el tipo de información definen cuál técnica usar. Si se requiere diseñar una aplicación que es masiva, se hacen entrevistas, grupos de enfoque, talleres y cuestionarios; si es individual o un grupo pequeño, se realiza mediante la observación; si es nuevo en el dominio del software, hay que hacer talleres y observaciones para adquirir conocimiento y entender el dominio.
+    p La experiencia del equipo de trabajo y el tipo de información definen cuál técnica usar. Si se requiere diseñar una aplicación que es masiva, se hacen entrevistas, grupos de enfoque, talleres y cuestionarios; si es individual o un grupo pequeño, se realiza mediante la observación; si es nuevo en el dominio del #[em software], hay que hacer talleres y observaciones para adquirir conocimiento y entender el dominio.
 
 </template>
 

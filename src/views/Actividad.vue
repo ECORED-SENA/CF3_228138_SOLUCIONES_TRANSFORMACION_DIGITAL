@@ -10,7 +10,7 @@
             img(src="@/assets/template/completar-espacios.svg")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Autoevaluación de conceptos de análisis de requisitos y procesos.
+          h2 Autoevaluación de conceptos de análisis de requisitos y procesos
         p.mb-4 Identificar los conceptos de análisis de requisitos y procesos con el fin de afianzar los conocimientos adquiridos en el componente.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
