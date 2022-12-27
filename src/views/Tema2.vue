@@ -37,8 +37,8 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Técnica de clasificación de lista
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 365px; position: absolute" data-aos="fade-left")
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
@@ -66,8 +66,8 @@
         
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Técnica de puntos de historia y valor del negocio
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 518px; position: absolute" data-aos="fade-left")
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="fade-right")
@@ -145,8 +145,8 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Técnica urgente
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 223px; position: absolute" data-aos="fade-left")
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
@@ -273,8 +273,8 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Técnica MoSCoW
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 235px; position: absolute" data-aos="fade-left")
 
     p Esta técnica se basa en la asignación de etiquetas a cada requerimiento, y las disponibles se relacionan a continuación:
 
@@ -318,8 +318,8 @@
           
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Juicio de expertos
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 245px; position: absolute" data-aos="fade-left")
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="fade-right")
@@ -340,8 +340,8 @@
       
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Matriz de priorización
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 275px; position: absolute" data-aos="fade-left")
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")

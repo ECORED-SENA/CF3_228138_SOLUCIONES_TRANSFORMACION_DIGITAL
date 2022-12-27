@@ -95,8 +95,8 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Manifiesto agile
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 220px; position: absolute" data-aos="fade-left")  
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
@@ -191,8 +191,8 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") #[em Pregame]
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 160px; position: absolute" data-aos="fade-left")  
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
@@ -204,8 +204,8 @@
     
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") #[em Game]
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 135px; position: absolute" data-aos="fade-left")  
 
     .cajon-b.color-primario.p-3.mb-4
       .row.justify-content-between.align-items-center
@@ -260,8 +260,8 @@
         
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") #[em Post game]
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 175px; position: absolute" data-aos="fade-left")  
 
     p Corresponde al cierre del proyecto dado que se han llevado a cabo todas las iteraciones que lo han perfeccionado para que el cliente quede a satisfacción con las funciones que esperaba. Entonces se prepara el producto para ser liberado haciendo la verificación de las versiones anteriores que se tengan de este, las cuales deben ser almacenadas en repositorios o carpetas para tener un control de versiones.
     p En esta metodología se pueden distinguir claramente tres (3) roles principales:

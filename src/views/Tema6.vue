@@ -18,8 +18,8 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Diagrama de clases UML (Lenguaje de Modelado Unificado)
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 615px; position: absolute" data-aos="fade-left")  
 
     p Es una modelación orientada a la programación basada en objetos, eventos y clases; uno de los lenguajes de programación más fiel a este paradigma de programación es Java, el cual se fundamenta en elementos como clases, atributos y métodos.
     p Para entender este tipo de diagramación, es importante definir algunos conceptos:
@@ -79,8 +79,8 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Relaciones entre clases
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 295px; position: absolute" data-aos="fade-left")  
 
     .BGR13.p-4.mb-4(data-aos="fade-right")
       p Se presentan entre diferentes clases, indicando la manera en cómo se comunican o asocian los objetos del sistema; existen distintos tipos de relaciones:
@@ -110,8 +110,8 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Diagrama de casos de uso en UML
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 390px; position: absolute" data-aos="fade-left")  
 
     p Capturan los requisitos funcionales del sistema a describir a través de una forma gráfica o un diagrama UML evolucionado. Se compone de algunos elementos gráficos particulares, donde cada elemento representa ya sea un usuario, un proceso, una situación, conectores u otro elemento del sistema.
     p En el siguiente recurso se describen los elementos:
@@ -191,8 +191,8 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Diagrama de flujo
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 245px; position: absolute" data-aos="fade-left")  
 
     p Se basa en la representación gráfica de un proceso o un algoritmo, mostrando claramente los pasos y el flujo de las tareas, entradas, salidas e interacción, tal como si fuera un mapa de proceso y tareas.
     p Las figuras geométricas más comunes y su representación gráfica son:

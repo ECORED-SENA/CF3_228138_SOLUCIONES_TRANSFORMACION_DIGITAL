@@ -89,7 +89,7 @@
     
     .row.justify-content-center.align-items-center.BGR03.p-4.mb-4
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-        .h4 A. Identificar las fuentes de requerimientos.
+        .h4 A. Identificar las fuentes de requerimientos
         p Existe un conjunto de fuentes de requisitos en cada proyecto de desarrollo de #[em software], así, usuarios y expertos abastecen de información detallada acerca del problema y necesidades del usuario. Los procesos y sistemas existentes representan, también, fuentes de requisitos; además, la documentación existente como manuales, formularios y reportes, incluso especificaciones de requisitos anteriores, puede proveer información útil acerca de la organización y su entorno.
         p En el proceso de esta actividad se identifican:
         ul.lista-ul--color
@@ -137,7 +137,7 @@
     
     .row.justify-content-center.align-items-center.BGR13.p-4.mb-4
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-        .h4 B. Identificar interesados del producto.
+        .h4 B. Identificar interesados del producto
         p Uno de los primeros pasos en el proceso es el análisis e identificación de todas las personas relevantes que tienen un grado de interés en el proyecto. 
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
@@ -271,8 +271,8 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Descripción de los componentes de la matriz de #[em stakeholders]
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 630px; position: absolute" data-aos="fade-left")
 
     p A continuación, se presenta el concepto de cada uno de los componentes que estructuran la matriz de #[em stakeholders].
 
@@ -311,8 +311,8 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Categorización de #[em stakeholders] y estrategias de gestión de las expectativas
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 760px; position: absolute" data-aos="fade-left")
 
     p Como ya se había mencionado anteriormente, la matriz de stakholders es una herramienta muy útil que permite clasificar a los involucrados en el proyecto según sus niveles de interés e influencia, priorizando a los más importantes y desarrollando así las estrategias correspondientes para gestionar sus expectativas. De la misma manera, su clasificación puede cambiar durante la vida del proyecto. Así, aquellos que fueron inicialmente identificados con un alto nivel de influencia en el proyecto, pueden ser reclasificados a un nivel más bajo durante otras etapas de la vida del proyecto.
     p La categorización de los #[em stakeholders] se lleva a cabo una vez que la información sobre éstos esté completa. Para ello se puede utilizar una matriz de 2x2 en la que se pueda graficar el grado de poder e interés que tiene el involucrado en el proyecto, coadyuvando así a clasificar a cada #[em stakeholder] dentro del grupo para el cual se definen diferentes estrategias (figura 2).
@@ -343,8 +343,8 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Entrevista 
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 170px; position: absolute" data-aos="fade-left")
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
@@ -482,8 +482,8 @@
           
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Encuesta 
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 160px; position: absolute" data-aos="fade-left")
  
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="fade-right")
@@ -523,8 +523,8 @@
     
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Observación 
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 190px; position: absolute" data-aos="fade-left")
 
     .row.justify-content-center.BGR03.p-4.mb-4
       .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="fade-right")
@@ -606,8 +606,8 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Sesiones grupales 
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 245px; position: absolute" data-aos="fade-left")
 
     .row.justify-content-between.align-items-center.mb-4
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
@@ -661,8 +661,8 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Diagrama de casos de uso 
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 315px; position: absolute" data-aos="fade-left")
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
@@ -671,14 +671,14 @@
         .mb-4.d-flex
           .d-flex.flex-wrap.px-4(style="background-color: #993A2B; border-radius: 25px; padding: 10px")
             h4.col.mb-0.text-white(data-aos="fade-right") Actor
-        p se representa mediante un “hombre de palo”. Este se emplea para indicar el tipo de usuario del sistema que podrá ejecutar alguna función.
+        p Se representa mediante un “hombre de palo”. Este se emplea para indicar el tipo de usuario del sistema que podrá ejecutar alguna función.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema4/img45.svg")
     
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Caso de uso 
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 195px; position: absolute" data-aos="fade-left")
 
     p Se representa mediante un óvalo e indica una función que el sistema debe proveer.
 
@@ -737,8 +737,8 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Historias de usuario
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 260px; position: absolute" data-aos="fade-left")
 
     p Las historias de usuario son utilizadas en los métodos agiles para la especificación de requisitos, son una descripción breve de una funcionalidad #[em software] tal y como la percibe el usuario (Cohn, 2004).
     p El formato para las historias de usuario Scrum se basan en una regla de tres palabras:
@@ -779,8 +779,8 @@
     
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Conversación para explicar mejor la historia de usuario
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 575px; position: absolute" data-aos="fade-left")
 
     p Como se mencionó anteriormente, las historias de usuario son una frase sencilla y concisa, sin embargo, eso no impide que se pueda abrir un diálogo (conversación) entre todos los miembros del equipo. De hecho, esta conversación se debe llevar a cabo para explicar mejor la propia historia de usuario y conseguir objetivos como:
     ul.lista-ul--color(data-aos="fade-right")
@@ -797,8 +797,8 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Confirmación de los criterios de aceptación
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 470px; position: absolute" data-aos="fade-left")
 
     p Los criterios de aceptación, es decir, la confirmación. Se trata de criterios claros y específicos que todo el equipo debe comprender y que permitirán avaluar en el futuro si la implementación que se está desarrollando o las pruebas que se realicen están terminadas.
     p A continuación, un ejemplo de una historia de usuario usando plantilla.
@@ -907,8 +907,8 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") #[em Storyboard]
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 180px; position: absolute" data-aos="fade-left")
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(

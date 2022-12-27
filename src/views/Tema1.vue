@@ -34,8 +34,9 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 16px; position: absolute" data-aos="fade-left")
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Características
-        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 220px; position: absolute" data-aos="fade-left")
+        
 
     p.mb-5 A continuación, se describen las principales características de la comunicación enfocadas a la gestión de diseño y documentación de propuesta para servicios en la nube.
 
