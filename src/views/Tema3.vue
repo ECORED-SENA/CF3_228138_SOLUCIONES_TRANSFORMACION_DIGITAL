@@ -83,7 +83,7 @@
                 td(style="background-color: #F6F6F6;").text-center <a href="https://bit.ly/2Pzw80U" target="_blank" style="color: #2D679A">bit.ly/2Pzw80U</a>
               tr
                 th(style="background-color: #FFF;").text-center Sistema de Información de Seminarios Web
-                td(style="background-color: #FFF;").text-center <a href="https://bit.ly/3cwwa2Q" target="_blank" style="color: #2D679A">bit.ly/3cwwa2Q</a>
+                td(style="background-color: #FFF;").text-center <a href="https://www.javerianacali.edu.co/centro-escritura/recursos/manual-apa-7a-edicion" target="_blank" style="color: #2D679A">javerianacali.edu.co</a>
               tr
                 th(style="background-color: #F6F6F6;").text-center Sistema de Estacionamiento Tarifado
                 td(style="background-color: #F6F6F6;").text-center <a href="https://bit.ly/3syWvmd" target="_blank" style="color: #2D679A">bit.ly/3syWvmd</a>
